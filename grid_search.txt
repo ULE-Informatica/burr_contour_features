@@ -1,0 +1,17 @@
+\begin{longtable}{llr}
+\toprule
+Model &                                                     Parameters &  Accuracy \\
+\midrule
+\endhead
+\midrule
+\multicolumn{3}{r}{{Continued on next page}} \\
+\midrule
+\endfoot
+
+\bottomrule
+\endlastfoot
+  RFC &  \{'criterion': 'entropy', 'max\_depth': 14, 'n\_estimators': 95\} &    0.7495 \\
+  KNC &      \{'leaf\_size': 5, 'n\_neighbors': 8, 'weights': 'distance'\} &    0.7495 \\
+  GBC &                          \{'max\_depth': 5, 'n\_estimators': 100\} &    0.7494 \\
+  ADB &                                          \{'n\_estimators': 100\} &    0.7192 \\
+\end{longtable}
